@@ -1,0 +1,278 @@
+@media (min-width: 600px) {
+
+    *{
+        box-sizing: border-box;
+    }
+
+    @font-face {
+        font-family: "Poppins";
+        src: local('font/poppins/Poppins-Regular.woff');
+        font-weight: 400;
+    }
+
+    body {
+        font-size: 15px;
+        font-family: "Poppins";
+    }
+   
+    .header_ss  {
+        display: none;
+    }
+
+    .header_ws {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    h1 {
+        font-size: 2.875rem;
+        margin-bottom: 17.5px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+        font-weight: 400;
+        font-size: 2.25rem;
+    }
+
+    p {
+        color: #666666;
+    }
+
+    .header_ws nav a {
+        color: black;
+    }
+
+    .logo {
+        margin: 0 4.34rem;
+        align-self: flex-start;
+        height: 41.23px;
+        width: 141.51px;
+    }
+
+    nav {
+        display: flex;
+    }
+   
+    nav a {
+        display: inline-block;
+        max-width: 100px;
+        min-width: 50px;
+        position: relative;
+        padding-left: 0.8vw;
+        padding-right: 0.8vw;
+        text-decoration: none;
+        color: #666666;
+        font-size: 14px;
+        height: 42px;
+    }
+    
+    .link_home:hover::after{
+        border-radius: 50%;
+        background-color: #A174DB;
+        height: 8px;
+        width: 8px;
+        position: absolute;
+        content: "";
+        top: 40px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+    }
+    
+    nav a:hover {
+        color: #A174DB;
+    }
+    
+
+    .search_bar {
+        margin: 0 1.1rem;
+        position: relative;
+        
+    }
+
+    .search_bar input {
+        border: 1px solid #C6BAF8;
+        border-radius: 5px;
+        width: 16.875rem;
+        height: 42px;
+    }
+
+    .magnifier {
+        position: absolute;
+        top: 8.5px;
+        bottom: 0;
+        right: 20px;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        background-image: url("search.svg");
+        background-size: contain;
+        height: 25px;
+        width: 25px;
+        border-style: none;
+    }
+
+    .magnifier span {
+        display: none;
+    } 
+
+    .contact_ws {
+        margin: 0;
+        height: 42px;
+        width: 131px;
+        text-align: center;
+        padding-top: 11px;
+        font-size: 15px;
+        margin: 0 1.1rem;
+    }
+    
+    .icon { 
+        display: none;
+    }
+
+    .why_gotech p, .title p {
+        text-align: center;
+    }
+
+    .why_gotech p {
+        max-width: 579px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .why_gotech {
+        max-width: 930px;
+        margin: 150px auto 70px;
+    }
+
+    .why_gotech span, .life_at_gotech span {
+        font-weight: 600;
+    }
+
+    .image_grid {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        max-width: 1066px;
+        justify-content: end;
+        margin-right: 0;
+    }
+
+    .image_grid img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .career_life_row-1_col-1 {
+        grid-column-start: span 2;
+        grid-row-start: span 2;
+    }
+
+    .career_life_row-1_col-4 {
+        grid-row-start: span 2;
+    }
+
+    .career_life_row-3_col-2 {
+        grid-row-start: span 2;
+    }
+
+    .career_life_row-3_col-3 {
+        grid-row-start: span 2;
+        grid-column-start: span 2;
+    }
+    
+    .seat button {
+        border-radius: 5px;
+        padding: 1rem 1.5rem;
+        width: 150px;
+        height: 3.25rem;
+        text-decoration: none;
+        font-weight: 400;
+        background-color: #FFFFFF;
+        border: 1px solid #9D60EB;
+        color: #9D60EB;
+        margin: 1.5rem;
+    }    
+    
+    .seat button:hover{
+            background: linear-gradient(90deg, rgba(115,36,218,1) 0%, rgba(161,116,219,1) 50%, rgba(183,154,221,1) 100%);
+            border-style: none;
+            cursor: pointer;
+            color: #FFFFFF;
+    }
+
+
+    .filter {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .career_teaser {
+        border: 0 solid white;
+        border-radius: 8px;
+        box-shadow: 0 10px 30px #999999;
+        width: 370px;
+        padding: 2.1875rem 1.875rem;
+        display: flex;
+        flex-direction: column;
+        margin: 2.5rem 1.875rem;
+    }
+    
+    .career_teaser h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    
+    .career_teaser h4 {
+        font-size: 1rem;
+        font-weight: 400;
+        margin-top:0;
+    }
+
+    .time {
+        color: #999999;
+        margin:0 0 0 8px;
+    }
+
+    .time_div {
+        display: flex;
+        margin: 1.25rem 0 2.1875rem 0;
+    }
+
+    .time_div img {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+
+    .career_teaser a {
+        border-radius: 5px;
+        padding: 1rem 1.5rem;
+        width: 150px;
+        height: 3.25rem;
+        text-decoration: none;
+        font-weight: 400;
+        background-color: #FFFFFF;
+        border: 1px solid #9D60EB;
+        color: #9D60EB;
+    }
+    
+    .career_teaser_group {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1300px;
+        margin: auto;
+    }
+
+    .career_teaser a:hover {
+        color: #FFFFFF;
+        background: linear-gradient(90deg, rgba(115,36,218,1) 0%, rgba(161,116,219,1) 50%, rgba(183,154,221,1) 100%);
+        border-style: none;
+    }
+
+
+    }

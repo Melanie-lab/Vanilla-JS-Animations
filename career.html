@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoTECH - Career</title>
+    <link rel="stylesheet" href="CSS/career.css">
+</head>
+<body>
+    
+    <header class="header_ss">
+        <div class="topline">
+            <img alt="GoTECH" src="img/logo.png" class="logo">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="img/menue_purple.svg" alt="menu">
+            </a>
+        </div>
+        <nav id="navSS">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#product">Product</a>
+            <a href="#career">Career</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact us</a>
+            
+        </nav>
+    </header>
+    <header class="header_ws">
+        <img alt="GoTECH" src="img/logo.png" class="logo">
+        <nav id="navWS">
+            <a class="link_home" href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#product">Product</a>
+            <a href="#career">Career</a>
+            <a href="#blog">Blog</a>
+        </nav>
+        <div class="search_bar">
+            <input type="text" placeholder=" Search here">
+            <button class="magnifier"></button>
+        </div>
+        <a href="contact_ws" class="contact_ws">Contact Us</a>
+    </header>
+    <main>
+       <div class="title">
+            <h1>Career</h1>
+            <p>Home / Career</p>
+       </div>
+       <section class="why_gotech"> 
+           <h2>Why <span>GOtech??</span></h2>
+           <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet</p>
+           <img src="img/career/career_titlepage.png" alt="">
+        </section>
+       <section class="life_at_gotech">
+            <h2><span>Life at </span>GOtech</h2>
+            <div class="image_grid" role="img" aria-label="image collections of happy people working at GoTECH">
+                <div class="career_life_row-1_col-1">
+                    <img src="img/career/career_life_row-1_col-1.png" alt="">
+                </div>
+                <div class="career_life_row-1_col-3">
+                    <img src="img/career/career_life_row-1_col-3.png" alt="">
+                </div>
+                <div class="career_life_row-1_col-4">
+                    <img src="img/career/career_life_row-1_col-4.png" alt="">
+                </div>
+                <div class="career_life_row-2_col-3">
+                    <img src="img/career/career_life_row-2_col-3.png" alt="">
+                </div>
+                <div class="career_life_row-3_col-1">
+                    <img src="img/career/career_life_row-3_col-1.png" alt="">
+                </div>
+                <div class="career_life_row-3_col-2">
+                    <img src="img/career/career_life_row-3_col-2.png" alt="">
+                </div>
+                <div class="career_life_row-3_col-3">
+                    <img src="img/career/career_life_row-3_col-3.png" alt="">
+                </div>
+                <div class="career_life_row-4_col-1">
+                    <img src="img/career/career_life_row-4_col-1.png" alt="">
+                </div>
+            </div>
+       </section>
+       <section class="seat">
+           <h2><span>Find your seat</span> at our table</h2>
+           <div class="filter">
+               <button class="all_together_btn" onclick="allTogether()">All together</button>
+               <button class="designer_btn" onclick="careerDesigner()">Designer</button>
+               <button class="developer_btn" onclick="careerDeveloper()">Developer</button>
+               <button id="manager_btn" onclick="careerManagement()">Management</button>
+           </div>
+         <div class="career_teaser_group"> 
+           <div class="career_teaser" class="developer">
+               <h3>PHP Developer</h3>
+               <h4>London, United Kingdom</h4>
+               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+               <div class="time_div">
+                            <img src="img/clock-6@2x.jpg" alt="">
+                            <p class="time">10 hours ago</p>
+               </div>
+               <a href="view_details">View Details</a>
+           </div>
+           <div class="career_teaser" class="manager">
+            <h3>Innovation Manager</h3>
+            <h4>Kiel, Germany</h4>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <div class="time_div">
+                         <img src="img/clock-6@2x.jpg" alt="">
+                         <p class="time">10 hours ago</p>
+            </div>
+            <a href="view_details">View Details</a>
+        </div>
+        <div class="career_teaser" class="designer">
+            <h3>Chief Designer</h3>
+            <h4>Preetz, Germany</h4>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <div class="time_div">
+                         <img src="img/clock-6@2x.jpg" alt="">
+                         <p class="time">10 hours ago</p>
+            </div>
+            <a href="view_details">View Details</a>
+        </div>
+        <div class="career_teaser" class="developer">
+            <h3>Climate Developer</h3>
+            <h4>Jupiter, The Universe</h4>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <div class="time_div">
+                         <img src="img/clock-6@2x.jpg" alt="">
+                         <p class="time">10 hours ago</p>
+            </div>
+            <a href="view_details">View Details</a>
+        </div>
+        <div class="career_teaser" class="developer">
+            <h3>Front End Developer</h3>
+            <h4>The Cool City, Hackatown</h4>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <div class="time_div">
+                         <img src="img/clock-6@2x.jpg" alt="">
+                         <p class="time">10 hours ago</p>
+            </div>
+            <a href="view_details">View Details</a>
+        </div>
+        <div class="career_teaser" class="manager">
+            <h3>Manager of Managers</h3>
+            <h4>London, United Kingdom</h4>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <div class="time_div">
+                         <img src="img/clock-6@2x.jpg" alt="">
+                         <p class="time">10 hours ago</p>
+            </div>
+            <a href="view_details">View Details</a>
+        </div>
+        <div class="career_teaser" class="manager">
+            <h3>Dream Manager</h3>
+            <h4>London, United Kingdom</h4>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <div class="time_div">
+                         <img src="img/clock-6@2x.jpg" alt="">
+                         <p class="time">10 hours ago</p>
+            </div>
+            <a href="view_details">View Details</a>
+        </div>
+        <div class="career_teaser designer">
+            <h3>Fun Designer</h3>
+            <h4>London, United Kingdom</h4>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <div class="time_div">
+                         <img src="img/clock-6@2x.jpg" alt="">
+                         <p class="time">10 hours ago</p>
+            </div>
+            <a href="view_details">View Details</a>
+        </div>
+        <div class="career_teaser designer">
+            <h3>Design Thinker</h3>
+            <h4>London, United Kingdom</h4>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <div class="time_div">
+                         <img src="img/clock-6@2x.jpg" alt="">
+                         <p class="time">10 hours ago</p>
+            </div>
+            <a href="view_details">View Details</a>
+        </div>
+        <div class="career_teaser" class="developer">
+            <h3>Master Developer</h3>
+            <h4>London, United Kingdom</h4>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <div class="time_div">
+                         <img src="img/clock-6@2x.jpg" alt="">
+                         <p class="time">10 hours ago</p>
+            </div>
+            <a href="view_details">View Details</a>
+        </div>
+        <div class="career_teaser" class="developer">
+            <h3>Backend Developer</h3>
+            <h4>London, United Kingdom</h4>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <div class="time_div">
+                         <img src="img/clock-6@2x.jpg" alt="">
+                         <p class="time">10 hours ago</p>
+            </div>
+            <a href="view_details">View Details</a>
+        </div>
+        <div class="career_teaser" class="developer">
+            <h3>Java Developer</h3>
+            <h4>London, United Kingdom</h4>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <div class="time_div">
+                         <img src="img/clock-6@2x.jpg" alt="">
+                         <p class="time">10 hours ago</p>
+            </div>
+            <a href="view_details">View Details</a>
+        </div>
+    </div> 
+           
+       </section>
+
+    
+</main>
+    <script>
+
+    var jobDesigner = document.getElementsByClassName("designer");
+        console.log(jobDesigner);
+        var jobDeveloper = document.getElementsByClassName("developer");
+        var jobManager = document.getElementsByClassName("manager");
+        var allJobs = document.getElementsByClassName("career_teaser");
+
+        var designerButton = document.getElementsByClassName("designer_btn");
+        var alltogetherButton = document.getElementsByClassName("all_together_btn");
+        var developerButton = document.getElementsByClassName("developer_btn");
+        var managerButton = document.getElementById("manager_btn");
+        
+        
+
+        function careerDesigner() {
+            for (var i=0; i<allJobs.length; i++){
+                allJobs[i].style.display = "none";
+            }
+            console.log(jobDesigner.length);
+            for (var i=0; i<jobDesigner.length; i++){
+                jobDesigner[i].style.display = "flex";
+            }
+            managerButton.style.backgroundColor = "white";
+            managerButton.style.color = "#9D60EB";
+            designerButton[0].style.backgroundColor = "#9D60EB";
+            designerButton[0].style.color = "white";
+            developerButton[0].style.backgroundColor = "white";
+            developerButton[0].style.color = "#9D60EB";
+            alltogetherButton[0].style.backgroundColor = "white";
+            alltogetherButton[0].style.color = "#9D60EB";
+            
+        }
+        function careerDeveloper() {
+            for (var i=0; i<allJobs.length; i++){
+                allJobs[i].style.display = "none";
+            }
+            managerButton.style.backgroundColor = "white";
+            managerButton.style.color = "#9D60EB";
+            designerButton[0].style.backgroundColor = "white";
+            designerButton[0].style.color = "#9D60EB";
+            developerButton[0].style.backgroundColor = "#9D60EB";
+            developerButton[0].style.color = "white";
+            alltogetherButton[0].style.backgroundColor = "white";
+            alltogetherButton[0].style.color = "#9D60EB";
+                
+            jobDeveloper[0].style.display = "flex";
+        }
+        function allTogether() {
+            for (var i=0; i<allJobs.length; i++){
+                allJobs[i].style.display = "flex";
+            }
+            managerButton.style.backgroundColor = "white";
+            managerButton.style.color = "#9D60EB";
+            designerButton[0].style.backgroundColor = "white";
+            designerButton[0].style.color = "#9D60EB";
+            developerButton[0].style.backgroundColor = "white";
+            developerButton[0].style.color = "#9D60EB";
+            alltogetherButton[0].style.backgroundColor = "#9D60EB";
+            alltogetherButton[0].style.color = "white";
+                
+            }
+        
+        function careerManagement() {
+            managerButton.style.backgroundColor = "#9D60EB";
+            managerButton.style.color = "white";
+            designerButton[0].style.backgroundColor = "white";
+            designerButton[0].style.color = "#9D60EB";
+            developerButton[0].style.backgroundColor = "white";
+            developerButton[0].style.color = "#9D60EB";
+            alltogetherButton[0].style.backgroundColor = "white";
+            alltogetherButton[0].style.color = "#9D60EB";
+        }
+
+
+        
+
+    </script>
+
+</body>
+</html>
